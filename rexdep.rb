@@ -1,13 +1,13 @@
 class Rexdep < Formula
   homepage 'https://github.com/itchyny/rexdep'
-  version '0.0.2'
+  version '0.0.3'
 
   if Hardware.is_64_bit?
-    url 'https://github.com/itchyny/rexdep/releases/download/v0.0.2/rexdep_darwin_amd64.zip'
-    sha256 '506cdfdf831bac909f04e1d4ee149d48ed4d23aa1de2799b949d4783d9359abf'
+    url 'https://github.com/itchyny/rexdep/releases/download/v0.0.3/rexdep_darwin_amd64.zip'
+    sha256 '7928c576e50b80851d967799d8ce939610fd5916486df3eb00ecf0060af52abb'
   else
-    url 'https://github.com/itchyny/rexdep/releases/download/v0.0.2/rexdep_darwin_386.zip'
-    sha256 '66faeb12e6a01d5ce4cf9bfd2cdda67f606180d5167971ee28230d6e899ef796'
+    url 'https://github.com/itchyny/rexdep/releases/download/v0.0.3/rexdep_darwin_386.zip'
+    sha256 'ed062c0f5d129d4b7a873ba90bd8e3a72f904817e4ab2a40bb99fc643c66f78d'
   end
 
   head do
