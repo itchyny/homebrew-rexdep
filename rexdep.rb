@@ -2,7 +2,7 @@ class Rexdep < Formula
   homepage 'https://github.com/itchyny/rexdep'
   version '0.0.6'
 
-  if Hardware.is_64_bit?
+  if Hardware::CPU.is_64_bit?
     url 'https://github.com/itchyny/rexdep/releases/download/v0.0.6/rexdep_darwin_amd64.zip'
     sha256 '72f0473bcb842f56a8022f4340b29050036abe4a66f9f9cf31274cc8889ffeba'
   else
